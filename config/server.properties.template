@@ -29,6 +29,9 @@ default.replication.factor=1
 # may not be what you want.
 advertised.host.name={{KAFKA_ADVERTISED_HOST_NAME}}
 
+# Enable topic creation
+auto.create.topics.enable={{KAFKA_CREATE_TOPIC_ENABLE}}
+
 # Enable topic deletion
 delete.topic.enable={{KAFKA_DELETE_TOPIC_ENABLE}}
 
